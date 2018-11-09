@@ -384,7 +384,7 @@ print(sum(qvals<0.1))
 
 ### 1. Suppose you want to make an MA plot of the first two samples y = geneExpression[,1:2]. Which of the following projections gives us the projection of y so that column2 versus column 1 is an MA plot?
 
-Option C
+Option B
 
 ### 2.Say Y is M X N, in the SVD Y = UDV ??? which of the following is not correct? . A) DV ??? are the new coordinates for the projection U???Y . B) UD are the new coordinates for the projection Y V . C) D are the coordinates of the projection U???Y . D) U???Y is a projection from an N-dimensional to M-dimensional subspace.
 
@@ -415,7 +415,7 @@ mypar()
 image(1:n,1:n,cors,xaxt="n",yaxt="n",col=cols,xlab="",ylab="",zlim=c(-1,1))
 ```
 
-Option D
+Option C
 
 ### 4. Based on the correlation plots above, we could argue that there are at least two hidden factors. Using PCA estimate these two factors. Specifically, apply the svd to y and use the first two PCs as estimates. Which command gives us these estimates? . A) pcs = svd(y)$v[1:2,] . B) pcs = svd(y)$v[,1:2] . C) pcs = svd(y)$u[,1:2] . D) pcs = svd(y)$d[1:2]
 ```{r}
